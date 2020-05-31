@@ -38,7 +38,7 @@ public class CatalogoService {
   
      */
     @GET
-    @Path("muebles/")
+    @Path("/muebles")
     public List<Mueble> getTodosLosMuebles() 
     {
         
